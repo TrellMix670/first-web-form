@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raffle Nominee Form</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+        <fieldset id="persona-info">
+            
+            <legend>Nominee Information</legend>
+
+        <label class="needed" for="first-name">First Name:</label>
+        <input id="first-name" type="text" required name="first-name" placeholder="First name"><br>
+        
+        <label for="middle-name">Middle Name:</label>
+        <input id="middle-name" type="text" name="middle-name" placeholder="Middle name"><br>
+
+        
+        <label class="needed" for="last-name">Last Name:</label>
+        <input id="last-name" type="text" required name="last-name" placeholder="Last name"><br>
+
+        <label class="needed" for="dob">DOB: </label>
+        <input type="date" required name="dob" id="dob"><br>
+
+        <label class="needed" for="email">Email:</label>
+        <input id="email" type="email" required name="email" placeholder="Email"><br>
+        
+        <label class="needed" for="phone-number">Telephone:</label>
+        <input id="phone-number" required type="tel" name="phone-number" placeholder="Phone Number"><br>
+        
+        </fieldset>
+        <br>
+        
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    
+    </form>
+    <p>*Disclaimer: All information provided is for demonstration purposes only. Do not put any real information in this form.</p>
+</body>
+</html>

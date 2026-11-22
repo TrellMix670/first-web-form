@@ -1,0 +1,14 @@
+fieldset {
+    background-color: aquamarine;
+}
+.needed {
+    font-weight: bold;
+}
+legend {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+p::first-letter {
+    font-size: 200%;
+    text-transform: capitalize;
+}
